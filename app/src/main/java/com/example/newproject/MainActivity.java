@@ -13,7 +13,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     TextView tv1;
-    Button nextBtn, login;
+    Button nextBtn, login, contact;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         tv1 = findViewById(R.id.Tv1);
         nextBtn = findViewById(R.id.nextBtn);
         login = findViewById(R.id.login);
+        contact = findViewById(R.id.contact);
 
 
         nextBtn.setOnClickListener(new View.OnClickListener() {
@@ -38,6 +39,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), Connection.class);
                 startActivityForResult(intent, 2);
+            }
+        });
+
+        contact.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),Contact.class);
+                startActivity(intent);
             }
         });
     }

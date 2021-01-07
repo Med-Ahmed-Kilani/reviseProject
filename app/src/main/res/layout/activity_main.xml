@@ -23,7 +23,7 @@
         android:id="@+id/nextBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Swipe to the next Activity"
+        android:text="s'inscrire"
         />
 
     <Button
@@ -31,4 +31,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="connect"/>
+
+    <Button
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact"/>
 </LinearLayout>
