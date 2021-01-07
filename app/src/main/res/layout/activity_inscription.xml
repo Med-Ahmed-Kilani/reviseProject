@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Inscription">
+
+    <GridLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="8"
+        android:layout_column="2">
+
+        <TextView
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:id="@+id/prenom"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prenom"
+        />
+
+        <EditText
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:id="@+id/inputPrenom"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Prenom"
+            />
+        <TextView
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:id="@+id/nom"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nom"
+            />
+
+        <EditText
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:id="@+id/inputNom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Nom"
+            android:layout_toRightOf="@+id/nom"/>
+
+        <TextView
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_column="0"
+            android:layout_row="6"
+            android:id="@+id/login"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="login"
+            />
+
+        <TextView
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_column="0"
+            android:layout_row="7"
+            android:id="@+id/password"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="password"
+            />
+
+
+        <TextView
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:gravity="center"
+            android:id="@+id/matricule"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="matricule"/>
+
+        <EditText
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:id="@+id/inputMatricule"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:hint="matricule"/>
+
+        <TextView
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:gravity="center"
+            android:id="@+id/classe"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="classe"/>
+
+        <Spinner
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_column="1"
+            android:layout_row="3"
+            android:id="@+id/spinnerClasse"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_column="0"
+            android:layout_row="4"
+            android:gravity="center"
+            android:id="@+id/group"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="groupe"/>
+
+        <RadioGroup
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_column="1"
+            android:layout_row="4"
+            android:id="@+id/radioGroup"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/radioBtnGrp1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grp 1"/>
+
+            <RadioButton
+                android:id="@+id/radioBtnGrp2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grp 2"/>
+
+        </RadioGroup>
+
+        <EditText
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_column="1"
+            android:layout_row="6"
+            android:id="@+id/inputlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="login"
+            android:layout_toRightOf="@+id/login"/>
+
+        <EditText
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:id="@+id/inputPassword"
+            android:layout_column="1"
+            android:layout_row="7"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:hint="password"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_column="0"
+            android:layout_row="8"
+            android:id="@+id/OkResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ok"/>
+
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_column="1"
+            android:layout_row="8"
+            android:id="@+id/CancelResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"/>
+    </GridLayout>
+
+</LinearLayout>

@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">New Project</string>
+    <string-array name="classes">
+        <item>DSI3.1</item>
+        <item>DSI3.2</item>
+    </string-array>
 </resources>

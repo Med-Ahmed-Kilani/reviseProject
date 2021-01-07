@@ -13,7 +13,7 @@
         android:theme="@style/AppTheme">
         <activity android:name=".Contact"></activity>
         <activity android:name=".Connection" />
-        <activity android:name=".Act2" />
+        <activity android:name=".Inscription" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
