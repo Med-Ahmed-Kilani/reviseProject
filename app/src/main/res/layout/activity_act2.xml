@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_row="4"
+    android:layout_column="2"
+    tools:context=".Act2">
+
+    <TextView
+        android:layout_column="0"
+        android:layout_row="0"
+        android:id="@+id/nom"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nom"
+        />
+
+    <TextView
+        android:layout_column="0"
+        android:layout_row="1"
+        android:id="@+id/login"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="login"
+        />
+
+    <TextView
+        android:layout_column="0"
+        android:layout_row="2"
+        android:id="@+id/password"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="password"
+        />
+
+    <EditText
+        android:layout_column="1"
+        android:layout_row="0"
+        android:id="@+id/inputNom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Nom"
+        android:layout_toRightOf="@+id/nom"/>
+
+    <EditText
+        android:layout_column="1"
+        android:layout_row="1"
+        android:id="@+id/inputlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="login"
+        android:layout_toRightOf="@+id/login"/>
+
+    <EditText
+        android:id="@+id/inputPassword"
+        android:layout_column="1"
+        android:layout_row="2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:hint="password"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:layout_column="0"
+        android:layout_row="3"
+        android:id="@+id/OkResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ok"/>
+
+    <Button
+        android:layout_column="1"
+        android:layout_row="3"
+        android:id="@+id/CancelResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"/>
+</GridLayout>
