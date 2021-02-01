@@ -24,7 +24,6 @@ public class Connection extends AppCompatActivity {
         login = findViewById(R.id.loginInput);
         password = findViewById(R.id.passwordInput);
 
-
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

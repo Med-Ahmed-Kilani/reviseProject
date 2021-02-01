@@ -23,7 +23,7 @@ public class Contact extends AppCompatActivity {
         call.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:22222222"));
+                Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:52205987"));
                 startActivity(intent);
             }
         });
